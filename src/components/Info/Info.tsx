@@ -1,4 +1,4 @@
-const Info = () => {
+const Info = (): JSX.Element => {
   return <span className="message">Calling...</span>;
 };
 
