@@ -1,3 +1,5 @@
+import "./Display.css";
+
 const Display = () => {
   return <span className="number">667359961</span>;
 };
