@@ -44,7 +44,6 @@ function App() {
           </ol>
         </div>
         <div className="actions">
-          <span className="number">667359961</span>
           <a href="call" className="call">
             Call
           </a>
