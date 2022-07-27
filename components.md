@@ -9,7 +9,7 @@ Componentes:
 
 - Display
 
-  - Recibe: array de números marcados
+  - Recibe: array de strings
   - Estado:
     - pasará de vacío a contener números (hasta 9 como máximo)
     - de lleno a vacío (cuando se haga click en delete)
@@ -43,3 +43,12 @@ Componentes:
     - Acción usuario: clicar
 
 - Provider
+
+CAPA DE DATOS
+
+- el numero de telefono: array de strings del 0 a 9 (para poder concatenar)
+  - añadir dígito
+  - borrar dígito (setear a string vacío)
+- si está llamando o no: boolean
+  - set a true (llama)
+  - set a false (cuelga)
