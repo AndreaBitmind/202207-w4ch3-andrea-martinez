@@ -1,7 +1,7 @@
 import "./Actions.css";
 import Display from "../Display/Display";
 
-const Actions = () => {
+const Actions = (): JSX.Element => {
   return (
     <div className="actions">
       <Display />
