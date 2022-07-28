@@ -1,12 +1,12 @@
 import { createContext } from "react";
 
 interface IPhoneContext {
-  phoneNumbers: string;
+  phoneNumber: string;
   isCalling: boolean;
 }
 
 const PhoneContext = createContext<IPhoneContext>({
-  phoneNumbers: "",
+  phoneNumber: "",
   isCalling: false,
 });
 
